@@ -1,6 +1,10 @@
 # OSPO: One Step Policy Optimization
 
+<<<<<<< HEAD
 **Article:** Zijian Zhao, Sen Li*, "One Step is Enough: A Highly Efficient Ride Sharing Framework via GRPO" (under review)
+=======
+**Article:** "One Step is Enough: Multi-Agent Reinforcement Learning based on One-Step Policy Optimization for Order Dispatch on Ride-Sharing Platforms" (under review)
+>>>>>>> 7a274409919419daffeaaae0fa3137f9d1ec4cc1
 
 
 

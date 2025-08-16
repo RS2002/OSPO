@@ -2,6 +2,8 @@
 
 **Article:** Zijian Zhao, Sen Li*,"[One Step is Enough: Multi-Agent Reinforcement Learning based on One-Step Policy Optimization for Order Dispatch on Ride-Sharing Platforms](https://arxiv.org/abs/2507.15351)" (under review)
 
+An expanded version will be provided at [RS2002/Scale-OSPO: Official Repository for The Paper, Scale-OSPO: Efficient Order Dispatch on Ride-Sharing Platform via One-Step Policy Optimization and Single Parameter Tuning](https://github.com/RS2002/Scale-OSPO).
+
 # 1. Workflow
 
 ![](./img/main.png)
@@ -18,8 +20,6 @@ For route planning, we utilize the [Project-OSRM/osrm-backend: Open Source Routi
 docker run -t -i -p 6000:6000 -v "${PWD}:/data" ghcr.io/project-osrm/osrm-backend osrm-routed --algorithm mld /data/us-northeast-latest.osrm -p 6000
 ```
 
-
-
 ## 3. How to Run
 
 ```shell
@@ -28,13 +28,9 @@ python train.py
 
 You can also set different parameters in the `process` function in `Worker.py` of `GRPO` to replicate the ablation study presented in our paper.
 
-
-
 ## 4. Parameters
 
 The model parameters and training log files are located in the `./GRPO/parameters` and `./OSPO/parameters` directory.
-
-
 
 ## 5. Citation
 

@@ -1,6 +1,6 @@
 # OSPO: One Step Policy Optimization
 
-**Article:** "One Step is Enough: Multi-Agent Reinforcement Learning based on One-Step Policy Optimization for Order Dispatch on Ride-Sharing Platforms" (under review)
+**Article:** Zijian Zhao, Sen Li*,"One Step is Enough: Multi-Agent Reinforcement Learning based on One-Step Policy Optimization for Order Dispatch on Ride-Sharing Platforms" (under review)
 
 # 1. Workflow
 

@@ -2,7 +2,7 @@
 
 **Article:** Zijian Zhao, Sen Li*,"[One Step is Enough: Multi-Agent Reinforcement Learning based on One-Step Policy Optimization for Order Dispatch on Ride-Sharing Platforms](https://arxiv.org/abs/2507.15351)" (under review)
 
-An expanded version will be provided at [RS2002/Scale-OSPO: Official Repository for The Paper, Scale-OSPO: Efficient Order Dispatch on Ride-Sharing Platform via One-Step Policy Optimization and Single Parameter Tuning](https://github.com/RS2002/Scale-OSPO).
+An expanded version will be provided at [RS2002/Scale-OSPO](https://github.com/RS2002/Scale-OSPO).
 
 # 1. Workflow
 

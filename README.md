@@ -1,8 +1,6 @@
 # OSPO: One Step Policy Optimization
 
-**Article:** Zijian Zhao, Sen Li*,"[One Step is Enough: Multi-Agent Reinforcement Learning based on One-Step Policy Optimization for Order Dispatch on Ride-Sharing Platforms](https://arxiv.org/abs/2507.15351)" (under review)
-
-An expanded version will be provided at [RS2002/Scale-OSPO](https://github.com/RS2002/Scale-OSPO).
+**Article:** "One Step is Enough: Multi-Agent Reinforcement Learning based on One-Step Policy Optimization for Order Dispatch on Ride-Sharing Platforms" (under review)
 
 # 1. Workflow
 
@@ -39,11 +37,5 @@ The model parameters and training log files are located in the `./GRPO/parameter
 ## 5. Citation
 
 ```
-@article{zhao2025one,
-  title={One Step is Enough: Multi-Agent Reinforcement Learning based on One-Step Policy Optimization for Order Dispatch on Ride-Sharing Platforms},
-  author={Zhao, Zijian and Li, Sen},
-  journal={arXiv preprint arXiv:2507.15351},
-  year={2025}
-}
-```
 
+```

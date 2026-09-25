@@ -339,13 +339,13 @@ class Worker():
         if self.noise_type == 0:
             exploration_matrix = torch.rand_like(q_value)
             q_value[exploration_matrix < exploration_rate] = INF
-            q_value[self.observe_space[:, 4] == 1] = -INF
         else:
-            q_mean = torch.mean(q_value[self.observe_space[:, 3] == 0])
+            q_mean = torch.mean(q_value[self.observe_space[:, 4] == 0])
             scale = 2 * q_mean * exploration_rate
             noise = torch.randn_like(q_value) * scale
             q_value = q_value + noise
 
+        q_value[self.observe_space[:, 4] == 1] = -INF
 
         if self.restrict:
             # 3. add distance restriction
